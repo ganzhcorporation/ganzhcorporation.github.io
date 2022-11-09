@@ -222,3 +222,35 @@ form button{
 form button:hover{
     background-color:aqua
 }
+@media (max-width:800px){
+    .tab{
+        font-size: medium;
+        text-transform: lowercase;
+    }
+    .about{
+        font-size: x-large;
+    }
+}
+@media (max-width:600px){
+    .tab{
+        font-size: small;
+        text-transform: lowercase;
+    }
+    .about{
+        font-size: large;
+    }
+    .prev img,.next img {
+        height: 30px;
+}
+}
+@media (max-width:460px){
+    .logo__img{
+        display: none;
+    }
+    .tab {
+        font-size: x-small;
+    }
+    .about {
+        font-size: small;
+    }
+}
