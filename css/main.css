@@ -250,13 +250,13 @@ form button:hover{
     }
     .prev img,.next img {
         height: 30px;
-}
-.content p{
-    font-size: small;
-}
-.stas img{
-    height: 200px;
-}
+    }
+    .content p{
+        font-size: small;
+    }
+    .stas img{
+        height: 200px;
+    }
 }
 @media (max-width:460px){
     .logo__img{
