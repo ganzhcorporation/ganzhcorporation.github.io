@@ -222,6 +222,12 @@ form button{
 form button:hover{
     background-color:aqua
 }
+.stas img{
+    height: 500px;
+}
+.content_text{
+    text-decoration: underline;
+}
 @media (max-width:800px){
     .tab{
         font-size: medium;
