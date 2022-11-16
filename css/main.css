@@ -254,3 +254,11 @@ form button:hover{
         font-size: small;
     }
 }
+@media (max-width:320px){
+    .content_item img {
+        height: 100px;
+}
+.content_item{
+    font-size: small;
+}
+}
