@@ -271,7 +271,7 @@ form button:hover{
 }
 @media (max-width:320px){
     .content_item img {
-        height: 100px;
+        height: 90px;
 }
 .content_item{
     font-size: small;
