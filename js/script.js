@@ -70,3 +70,25 @@ prev.addEventListener('click',()=>{
 next.addEventListener('click',()=>{
     plusSlides(1)
 })
+const form=document.querySelector('form')
+const inputs=document.querySelectorAll('input')
+
+const message={
+    loading:'загрузка...',
+    success:'спасибо,скоро ганьжа с вами свяжется!!!',
+    fail:"что-то пошло не по плану"
+}
+form.addEventListener('submit',(e)=>{
+    e.preventDefault()
+    let status=document.createElement('div')
+    status.classList.add('status')
+    status.textContent=message.success
+    form.appendChild(status)
+    // inputs.forEach((item,i)=>{
+    // console.log(item[i]=item.value)})
+
+    
+    // console.log(text)
+    setTimeout(()=>status.textContent="шучу,серверная часть моя не уметь,звоните сами",3000)
+    setTimeout(()=>status.remove(),10000)
+})
