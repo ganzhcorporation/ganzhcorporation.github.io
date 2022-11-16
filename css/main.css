@@ -236,6 +236,9 @@ form button:hover{
     .about{
         font-size: x-large;
     }
+    .stas img{
+        height: 300px;
+    }
 }
 @media (max-width:600px){
     .tab{
@@ -251,6 +254,9 @@ form button:hover{
 .content p{
     font-size: small;
 }
+.stas img{
+    height: 200px;
+}
 }
 @media (max-width:460px){
     .logo__img{
@@ -261,6 +267,9 @@ form button:hover{
     }
     .about {
         font-size: small;
+    }
+    .stas img{
+        height: 100px;
     }
 }
 @media (max-width:320px){
